@@ -929,6 +929,12 @@ div.detadescripcion{
         grid-template-columns: repeat(2,1fr);
         grid-gap: 10px;
     }
+
+    div.cajadetalle{
+        border: #d80027 solid 3px;
+        border-radius: 3px;
+        min-width: 163px;
+    }
     /* que imágenes de detalle en compra y alquiler pasen a mostrarse en columna de a uno */
     .contenedorfotos{
         display: grid;
