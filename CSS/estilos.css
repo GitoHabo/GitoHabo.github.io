@@ -1202,4 +1202,12 @@ h1.deta{
                 
             }
 
-}}
+
+@media (max-width:400px){
+
+    .col100.contacto.colorcorporativo{
+font-size: 12px;
+    }
+}
+
+}
