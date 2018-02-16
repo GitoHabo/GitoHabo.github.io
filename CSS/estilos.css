@@ -1202,10 +1202,8 @@ h1.deta{
 /* ...................para móviles....................... */
 @media (max-width: 481px){
 
-    .hero a{
-        margin-bottom: 370px;
-        font-size: 60px;
-        color: #ff0000;
+    .hero h1 {
+       margin-top: 20px;
         }
     
 
