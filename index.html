@@ -7,6 +7,8 @@
     <title>Zu Hause</title>
     <link rel="stylesheet" href="./CSS/estilos.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script src="./js/librerias/jquery-3.3.1.min.js"></script>
+    <script src="./js/main.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 
 </head>
@@ -22,7 +24,16 @@
             <img class="logoimagen" src="./img/home.svg" alt="">
         </a>
         <p class="burguer"><i class="fas fa-bars"></i></p>
-
+        <div class="menu">
+            <!-- Ponemos un botón de cerrar pegado de fontawesome -->
+            <p class="cerrar"><i class="far fa-window-close"></i></p>
+            <ul>
+                <a class="activo" href="/">Inicio</a>
+                <a class="" href="./compra.html">Compra</a>
+                <a class="" href="./alquiler.html">Alquiler</a>
+                <a class="" href="./contacto.html">Contacto</a>
+            </ul>
+        </div>
         <nav>
             <ul>
                 <li><a class="activo" href="/">Inicio</a></li>

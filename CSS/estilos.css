@@ -77,6 +77,55 @@ color: #666666;
 }
 /* ATTRIBUTES */
 
+
+
+
+
+/* HAMBURGUESA */
+
+
+.menu{
+    /* para que esté pegado a la esquina superior */
+    /* El padre, que es el header en este caso, tiene que estar posicionado */
+    position: absolute;
+
+    top: 0px;
+    /* _________________________ */
+    width: 90%;
+    height: fit-content;
+    background-color: #d80027;
+    color: white;
+    /* ocultamos el menú, para que sea con JQ cuando se encienda */
+    display: none;
+
+    text-align: left;
+    z-index: 10;
+    line-height: 3em;
+
+}
+.menu ul{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+}
+
+.menu ul a{
+    color: white;
+    width: 100%;
+    text-decoration: none;
+}
+
+.menu ul a:hover{
+
+background-color: darkred;
+}
+
+.cerrar{
+    font-size: 40px;
+  text-align: right;
+}
+
+
 .logoimagen{
 width: 50px;
 }
