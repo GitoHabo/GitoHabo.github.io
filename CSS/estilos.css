@@ -1202,6 +1202,14 @@ h1.deta{
 /* ...................para móviles....................... */
 @media (max-width: 481px){
 
+    .hero a{
+        margin-bottom: 370px;
+        font-size: 60px;
+        color: #ff0000;
+        }
+    
+
+
     .colcentro{
         display: grid;
         grid-template-columns: repeat(2,1fr);
